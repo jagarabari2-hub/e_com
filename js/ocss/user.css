@@ -1,0 +1,114 @@
+:root{
+	--primary-color:#fc7b28;
+	--secondary-color:#fdc700;
+	--bg-color:#d3d3d3;
+	--border-color:#2082e4;
+	--btn-color:#00b8ff;
+	--hover-color:#ff5e00;
+	--main-color:#464441;
+	--text-color:#fd5200;
+	--hv-bg-color:#fca500;
+	--hv-text-color:#0dff66;
+	--body-color:#ffc300;
+	--shadow-color:#0c39ff;
+}
+#main{
+	background-color:var(--main-color);
+	font-weight:bolder;
+	font-family: Verdana, sans-serif;
+}
+.container-1{
+    background:var(--bg-color);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.page-1{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    gap: 35px;
+    background: var(--primary-color);
+}
+.j1{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.Pg-1{
+    list-style: none;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 5px 5px 5px 5px;
+}
+.Pg-1:hover{
+    background: var(--btn-color);
+    box-shadow: 10px 10px 45px var(--shadow-color);
+    cursor: pointer;
+}
+.btn-1{
+    height: 35px;
+    width: 120px;
+    background: var(--btn-color);
+    border-radius: 9px;
+    font-weight: 900;
+    color: var(--text-color);
+    border: none;
+}
+.btn-1:hover{
+    box-shadow: 9px 9px 19px var(--shadow-color);
+}
+.sour{
+    text-decoration: none;
+    background: var(--btn-color);
+    color: var(--text-color);
+    border-radius: 9px;
+    padding: 8px 8px 8px 8px;
+}
+.sour:hover{
+    color: var(--text-color);
+    cursor: pointer;
+    box-shadow: 10px 20px 45px var(--shadow-color);
+    font-weight: 800;
+}
+.txt-1{
+    color: var(--text-color);
+}
+.txt-3{
+    color: var(--text-color);
+}
+label{
+    font-size: medium;
+    color: var(--text-color);
+
+}
+.inp-1{
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 9px;
+    transition: all 0.5s ease;
+
+}
+.inp-1:hover{
+    box-shadow: 9px 9px 19px var(--shadow-color);
+}
+.inp-2{
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 9px;
+    transition: all 0.5s ease;
+}
+.inp-2:hover{
+    box-shadow: 9px 9px 19px var(--shadow-color);
+}
+.inp-3{
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 9px;
+    transition: all 0.5s ease;
+}
+.inp-3:hover{
+    box-shadow: 9px 9px 19px var(--shadow-color);
+}
