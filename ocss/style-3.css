@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+:root{
+	--primary-color:#fc7b28;
+	--secondary-color:#fdc700;
+	--bg-color:#d3d3d3;
+	--border-color:#2082e4;
+	--btn-color:#00b8ff;
+	--hover-color:#ff5e00;
+	--main-color:#e88e1a;
+	--text-color:#fd5200;
+	--hv-bg-color:#fca500;
+	--hv-text-color:#0dff66;
+	--body-color:#ffc300;
+	--shadow-color:#0c39ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fjalla One;
+}
+.user-form-1{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #323232;
+	background: #858181af;
+    border-radius: 5px;
+    margin: 100px 0px 0px 80px;
+    padding: 50px 50px 50px 50px;
+    width: 560px;
+	height: 450px;
+	box-shadow: 4px 4px #323232;
+}
+form{
+    align-items: center;
+    justify-content: space-evenly;
+    place-items: center;
+    margin: 25px 0px 0px 0px;
+}
+
+label{
+    margin: 0px 25px 0px 0px;
+}
+.user-form-1 input{
+    margin: 10px;
+}
+.btn{
+    width: 27%;
+    margin: 50px 0px 0px 150px;
+}
+/*.btn{
+    width: 27%;
+    margin: 0px 0px 162px 680px;
+}*/

@@ -1,0 +1,119 @@
+:root{
+	--primary-color:#fc7b28;
+	--secondary-color:#fdc700;
+	--bg-color:#d3d3d3;
+	--border-color:#2082e4;
+	--btn-color:#00b8ff;
+	--hover-color:#ff5e00;
+	--main-color:#464441;
+	--text-color:#fd5200;
+	--hv-bg-color:#fca500;
+	--hv-text-color:#0dff66;
+	--body-color:#ffc300;
+	--shadow-color:#0c39ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+	background-color:var(--main-color);
+	font-weight:bolder;
+	font-family: Verdana, sans-serif;
+}
+body{
+    font-family: Verdana;
+}
+.txt-1{
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+    margin:40px 0px 0px 0px;
+
+}
+.txt-2{
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+    margin:80px 0px 0px 0px;
+    display: flex;
+
+}
+.txt-3{
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;    
+    color: var(--text-color);
+}
+.inp-1{
+    margin: -36px 30px 0px 480px;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 12px;
+    font-size: 25px;
+}
+.inp-2{
+    margin: 35px 0px 0px 480px;
+    background: var(--btn-color);
+    color: var(--text-color);
+    font-size: 25px;
+    border-radius: 12px;
+}
+.container-1{
+    background-color: var(--bg-color);
+    border-radius: 10px;
+}
+.active-1{
+	text-decoration:none;
+	text-decoration-color:black;
+	border:2px solid black;
+	border-radius:10px;
+	display:flex;
+	flex-direction:row;
+	background:var(--btn-color);
+	padding:5px 5px 5px 5px;
+    
+}
+.active-1:hover{
+	background:var(--hv-bg-color);
+	
+	box-shadow:5px 5px 31px 8px var(--shadow-color);
+	opacity:0.8;
+}
+.j1{
+	text-decoration:none;
+    color: var(--text-color);
+	
+}
+.j1:hover{
+	text-decoration:none;
+    color: var(--hv-text-color);
+	
+}
+.row{
+    color: var(--text-color);
+    font-size: 30px;
+}
+.row:hover{
+    color: var(--hv-text-color);
+}
+.page-1{
+	display:flex;
+	justify-content:space-between;
+    
+}
+
+.sour{
+	text-decoration:none;
+	color: var(--text-color);
+    background: var(--btn-color);
+    border-radius: 20px;
+    padding: 4px 4px 4px 4px;
+}
+.sour:hover{
+	color:var(--hv-text-color);
+}
+
+
+

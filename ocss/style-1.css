@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carousel-container{
+    transition: all 0.5s step-end;
+}
+.grid-container{
+    background: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: auto;
+    gap: 90px;
+    padding: 50px 50px 50px 50px;
+}
+.img-box{
+    height: 350px;
+    width: 250px;
+}
+.f-txt{
+    text-align: center;
+}
+.txt-head{
+    text-align: center;
+}
+.grid-container-1{
+    background: darkgray;
+    display: flex;
+    display: inline-flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+   
+    height: auto;
+    gap: 90px;
+    padding: 50px 50px 50px 50px;
+}
+.scroll-arr{
+    font-size: 60px;
+    color: goldenrod;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10,.box-11,.box-12,.box-13,.box-14,.box-15,.box-16{
+    background: grey;
+    height: 350px;
+    width: 250px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s linear 0s;
+}
+.box-1:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-2:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-3:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-4:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-5:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-6:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-7:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-8:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-9:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-10:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-11:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-12:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-13:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-14:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-15:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.box-16:hover{
+    border: 3px solid blue;
+    text-decoration: underline;
+    transform: skew(10deg);
+}
+.carousel-inner{
+    transition: all 0.3s step-end;
+    height: 500px;
+    width: auto;
+}
+.grid-container b{
+    background: burlywood;
+    width: 250px;
+    text-align: center;
+}
